@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="glow3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7f40ff"/><stop offset="1" stop-color="#c481ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" rx="14" fill="#0d0a12"/>
+  <rect x="0" y="0" width="800" height="52" rx="14" fill="#120d1a"/>
+  <circle cx="28" cy="26" r="6" fill="#f87171"/><circle cx="48" cy="26" r="6" fill="#fbbf24"/><circle cx="68" cy="26" r="6" fill="#4ade80"/>
+  <text x="400" y="31" font-family="Segoe UI, sans-serif" font-size="14" fill="#8b8494" text-anchor="middle">AI-Powered Business Workflow System</text>
+  <!-- pipeline canvas -->
+  <rect x="16" y="68" width="560" height="380" rx="10" fill="#151020" stroke="#241b33"/>
+  <text x="36" y="98" font-family="Segoe UI, sans-serif" font-size="12" fill="#8b8494">LEAD ROUTING PIPELINE</text>
+  <!-- connectors -->
+  <path d="M150 170 C 200 170 200 140 250 140" stroke="#7f40ff" stroke-width="2" fill="none"/>
+  <path d="M150 170 C 200 170 200 240 250 240" stroke="#7f40ff" stroke-width="2" fill="none"/>
+  <path d="M370 140 C 420 140 420 190 470 190" stroke="#c481ff" stroke-width="2" fill="none"/>
+  <path d="M370 240 C 420 240 420 190 470 190" stroke="#c481ff" stroke-width="2" fill="none"/>
+  <path d="M310 268 C 310 320 360 340 400 340" stroke="#7f40ff" stroke-width="2" fill="none" stroke-dasharray="5 5"/>
+  <!-- nodes -->
+  <g font-family="Segoe UI, sans-serif" font-size="12" text-anchor="middle">
+    <rect x="40" y="142" width="110" height="56" rx="10" fill="#1b1426" stroke="#7f40ff"/><text x="95" y="166" fill="#eae5ec">New Lead</text><rect x="60" y="176" width="70" height="7" rx="3" fill="#2a2436"/>
+    <rect x="250" y="112" width="120" height="56" rx="10" fill="#1b1426" stroke="#7f40ff"/><text x="310" y="136" fill="#eae5ec">AI Classify</text><rect x="272" y="146" width="76" height="7" rx="3" fill="#2a2436"/>
+    <rect x="250" y="212" width="120" height="56" rx="10" fill="#1b1426" stroke="#7f40ff"/><text x="310" y="236" fill="#eae5ec">CRM Sync</text><rect x="272" y="246" width="76" height="7" rx="3" fill="#2a2436"/>
+    <rect x="470" y="162" width="90" height="56" rx="10" fill="#241b33" stroke="#c481ff" stroke-width="2"/><text x="515" y="186" fill="#c481ff">Assign</text><rect x="486" y="196" width="58" height="7" rx="3" fill="#2a2436"/>
+    <rect x="400" y="312" width="130" height="56" rx="10" fill="#1b1426" stroke="#fbbf24"/><text x="465" y="336" fill="#fbbf24">Approval Gate</text><rect x="422" y="346" width="86" height="7" rx="3" fill="#2a2436"/>
+  </g>
+  <!-- toasts -->
+  <rect x="330" y="396" width="226" height="34" rx="8" fill="#12261a" stroke="#4ade80"/><circle cx="348" cy="413" r="5" fill="#4ade80"/><text x="362" y="418" font-family="Segoe UI, sans-serif" font-size="11" fill="#4ade80">Lead assigned in under 2 min</text>
+  <rect x="36" y="396" width="226" height="34" rx="8" fill="#241b33" stroke="#7f40ff"/><circle cx="54" cy="413" r="5" fill="#c481ff"/><text x="68" y="418" font-family="Segoe UI, sans-serif" font-size="11" fill="#c481ff">12,000 events / month</text>
+  <!-- CRM sync side panel -->
+  <rect x="592" y="68" width="192" height="380" rx="10" fill="#151020" stroke="#241b33"/>
+  <text x="608" y="96" font-family="Segoe UI, sans-serif" font-size="12" fill="#8b8494">CRM SYNC STATUS</text>
+  <g font-family="Segoe UI, sans-serif" font-size="10">
+    <rect x="608" y="110" width="160" height="42" rx="8" fill="#1b1426"/><circle cx="624" cy="131" r="5" fill="#4ade80"/><rect x="638" y="120" width="100" height="7" rx="3" fill="#2a2436"/><rect x="638" y="134" width="80" height="6" rx="3" fill="#241b33"/>
+    <rect x="608" y="160" width="160" height="42" rx="8" fill="#1b1426"/><circle cx="624" cy="181" r="5" fill="#4ade80"/><rect x="638" y="170" width="92" height="7" rx="3" fill="#2a2436"/><rect x="638" y="184" width="86" height="6" rx="3" fill="#241b33"/>
+    <rect x="608" y="210" width="160" height="42" rx="8" fill="#1b1426"/><circle cx="624" cy="231" r="5" fill="#fbbf24"/><rect x="638" y="220" width="104" height="7" rx="3" fill="#2a2436"/><rect x="638" y="234" width="72" height="6" rx="3" fill="#241b33"/>
+    <rect x="608" y="260" width="160" height="42" rx="8" fill="#1b1426"/><circle cx="624" cy="281" r="5" fill="#4ade80"/><rect x="638" y="270" width="96" height="7" rx="3" fill="#2a2436"/><rect x="638" y="284" width="90" height="6" rx="3" fill="#241b33"/>
+    <rect x="608" y="310" width="160" height="42" rx="8" fill="#1b1426"/><circle cx="624" cy="331" r="5" fill="#f87171"/><rect x="638" y="320" width="88" height="7" rx="3" fill="#2a2436"/><rect x="638" y="334" width="78" height="6" rx="3" fill="#241b33"/>
+    <rect x="608" y="366" width="160" height="26" rx="13" fill="#241b33" stroke="#7f40ff"/><text x="688" y="383" font-size="11" fill="#c481ff" text-anchor="middle">retry failed jobs</text>
+  </g>
+  <!-- approvals list -->
+  <rect x="16" y="464" width="768" height="120" rx="10" fill="#151020" stroke="#241b33"/>
+  <text x="36" y="492" font-family="Segoe UI, sans-serif" font-size="12" fill="#8b8494">APPROVALS</text>
+  <rect x="36" y="506" width="500" height="8" rx="4" fill="#2a2436"/><rect x="660" y="502" width="90" height="20" rx="10" fill="#12261a" stroke="#4ade80"/><text x="705" y="516" font-family="Segoe UI, sans-serif" font-size="10" fill="#4ade80" text-anchor="middle">approved</text>
+  <rect x="36" y="530" width="460" height="8" rx="4" fill="#2a2436"/><rect x="660" y="526" width="90" height="20" rx="10" fill="#2b2210" stroke="#fbbf24"/><text x="705" y="540" font-family="Segoe UI, sans-serif" font-size="10" fill="#fbbf24" text-anchor="middle">pending</text>
+  <rect x="36" y="554" width="480" height="8" rx="4" fill="#2a2436"/><rect x="660" y="550" width="90" height="20" rx="10" fill="#12261a" stroke="#4ade80"/><text x="705" y="564" font-family="Segoe UI, sans-serif" font-size="10" fill="#4ade80" text-anchor="middle">approved</text>
+</svg>
