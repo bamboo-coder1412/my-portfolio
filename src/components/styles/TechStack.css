@@ -1,0 +1,103 @@
+.techstack {
+  width: var(--cWidth);
+  max-width: 1200px;
+  position: relative;
+  margin: auto;
+  padding: 140px 0px 120px;
+  text-align: center;
+}
+
+.techstack h2 {
+  font-size: 52px;
+  line-height: 58px;
+  font-weight: 500;
+  margin: 0;
+  background: linear-gradient(0deg, #b98aff, #ffffff 80%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.techstack-sub {
+  font-size: 18px;
+  font-weight: 300;
+  color: #adacac;
+  margin: 18px 0px 70px;
+}
+
+.techstack-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+
+.techstack-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 34px 44px;
+}
+
+.techstack-item {
+  position: relative;
+  font-size: 52px;
+  line-height: 0;
+  color: var(--techColor);
+  filter: drop-shadow(0px 0px 12px rgba(127, 64, 255, 0.25));
+  transition: transform 0.25s ease, filter 0.25s ease;
+  cursor: default;
+}
+
+.techstack-item:hover {
+  transform: translateY(-6px) scale(1.12);
+  filter: drop-shadow(0px 0px 16px rgba(196, 129, 255, 0.55));
+}
+
+.techstack-label {
+  position: absolute;
+  bottom: -34px;
+  left: 50%;
+  transform: translateX(-50%) translateY(4px);
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #eae5ec;
+  background-color: #1a1322;
+  border: 1px solid #363636;
+  border-radius: 6px;
+  padding: 4px 10px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  z-index: 5;
+}
+
+.techstack-item:hover .techstack-label {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0px);
+}
+
+@media screen and (max-width: 900px) {
+  .techstack {
+    padding: 80px 0px 70px;
+  }
+  .techstack h2 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .techstack-sub {
+    font-size: 15px;
+    margin-bottom: 45px;
+  }
+  .techstack-item {
+    font-size: 38px;
+  }
+  .techstack-row {
+    gap: 24px 28px;
+  }
+  .techstack-rows {
+    gap: 28px;
+  }
+}
