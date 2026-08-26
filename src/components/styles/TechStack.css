@@ -3,6 +3,7 @@
   max-width: 1200px;
   position: relative;
   margin: auto;
+  margin-top: 120px;
   padding: 140px 0px 120px;
   text-align: center;
 }
@@ -82,6 +83,7 @@
 @media screen and (max-width: 900px) {
   .techstack {
     padding: 80px 0px 70px;
+    margin-top: 60px;
   }
   .techstack h2 {
     font-size: 34px;
