@@ -1,11 +1,11 @@
 # Takefumi Yoshii — Portfolio
 
-Interactive 3D developer portfolio built with React, TypeScript, and Vite. Features a WebGL particle character scene (Three.js), GSAP-driven scroll animations with smooth scrolling and split-text effects, and a React Three Fiber tech-stack showcase.
+Interactive 3D developer portfolio built with React, TypeScript, and Vite. Features a WebGL particle character scene (Three.js), GSAP-driven scroll animations with smooth scrolling and split-text effects, a pinned horizontal work showcase, and a categorized tech-stack icon grid.
 
 ## Tech Stack
 
 - **Framework:** React 18 + TypeScript + Vite
-- **3D / WebGL:** Three.js, React Three Fiber, Drei
+- **3D / WebGL:** Three.js
 - **Animation:** GSAP (ScrollTrigger, ScrollSmoother, SplitText)
 - **UI:** react-icons, react-fast-marquee
 
