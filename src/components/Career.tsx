@@ -1,5 +1,6 @@
 import "./styles/Career.css";
 
+// Chronological entries; rendered newest-first below.
 const roles = [
   {
     year: "2020",
@@ -57,7 +58,7 @@ const Career = () => {
           <div className="career-timeline">
             <div className="career-dot"></div>
           </div>
-          {roles.map((role) => (
+          {[...roles].reverse().map((role) => (
             <div className="career-info-box" key={role.year}>
               <div className="career-info-in">
                 <div className="career-role">
